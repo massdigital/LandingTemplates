@@ -155,6 +155,12 @@ $(function() {
 		var email = $('#email').val();
 		var telefono = $('#phone').val()
 		var estatus = 'ok';
+		var formulario = $(this).data('landing');
+		switch (formulario) {
+			case 'sanluis':
+				llamara = "envio_sanluis";
+			break;
+		}
 		if(nombre == ""){
 			estatus = 'error';
 			$('#name').addClass('error');
@@ -199,10 +205,11 @@ $(function() {
 			return;
 		}
 		$("#formcontacto").ajaxForm({
-			url : '../ajax/request.php',
+			url : '../mass/request.php',
 			type : 'post',
 			data : {
-				a : 'envio_sanluis'
+				a : 'envio_formulario',
+				b : llamara
 			},
 			dataType : 'json',
 			success : function(data) {

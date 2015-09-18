@@ -1,0 +1,4 @@
+[25-Jun-2015 14:28:01 UTC] PHP Fatal error:  Call to a member function FetchRow() on a non-object in /home/jymcorea/public_html/gerardo/ajax/functions.php on line 16
+[25-Jun-2015 14:28:05 UTC] PHP Fatal error:  Call to a member function FetchRow() on a non-object in /home/jymcorea/public_html/gerardo/ajax/functions.php on line 16
+[28-Aug-2015 14:43:51 UTC] PHP Fatal error:  Class 'SimpleImage' not found in /home/jymcorea/public_html/gerardo/ajax/adminitrador.php on line 127
+[28-Aug-2015 14:45:04 UTC] PHP Fatal error:  Class 'SimpleImage' not found in /home/jymcorea/public_html/gerardo/ajax/adminitrador.php on line 127
